@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CharacterDetailActivity"
+    tools:showIn="@layout/activity_character_detail">
+
+    <ImageView
+        android:id="@+id/character_detail_imageview"
+        android:layout_width="150dp"
+        android:layout_height="245dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="127dp"
+        app:layout_constraintBottom_toTopOf="@+id/character_detail_button_favorite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/character_detail_description_textview"
+        android:layout_width="173dp"
+        android:layout_height="420dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="96dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/character_detail_imageview" />
+
+    <Button
+        android:id="@+id/character_detail_button_favorite"
+        android:layout_width="82dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="96dp"
+        android:text="@string/title_add"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

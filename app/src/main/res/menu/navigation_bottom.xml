@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_character"
+        android:icon="@drawable/img_character_icon"
+        android:title="@string/title_character"/>
+    <item
+        android:id="@+id/nav_comic"
+        android:icon="@drawable/img_comic_icon"
+        android:title="@string/title_comic"/>
+    <item
+        android:id="@+id/nav_my_marvel"
+        android:icon="@drawable/avengers_icon"
+        android:title="@string/title_my_marvel"/>
+
+</menu>

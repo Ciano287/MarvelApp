@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Marvel App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_character_detail">CharacterDetailActivity</string>
+    <string name="character_name_placeholder">Captain America</string>
+    <string name="character_detail_plain_comics">Comics: </string>
+    <string name="title_character">Character</string>
+    <string name="title_comic">Comic</string>
+    <string name="title_my_marvel">My marvel</string>
+    <string name="search">Search</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_add">Add</string>
+    <string name="comic_detail_plain_characters">Characters: </string>
+    <string name="comic_detail_plain_buy">Buy</string>
+    <string name="buying_not_available">This comic is not available to buy.</string>
+</resources>
